@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.31.4"
+  version: "0.31.5"
 
 package:
   name: soco
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/soco/soco-${{ version }}.tar.gz
-  sha256: 00d34226dbdaf8abfca62545d9a10ed69fe13f203f0786ff5ea26bb1b9eb4e04
+  sha256: 32655d66b832f05c58cf0ae80141e593788228b22a61048e1590487dd421e2c8
 
 build:
   number: 0
@@ -21,7 +21,7 @@ requirements:
     - python ${{ python_min }}.*
     - pytest
     - pip
-    - setuptools
+    - setuptools >=78.1.1
   run:
     - python >=${{ python_min }}
     - requests
