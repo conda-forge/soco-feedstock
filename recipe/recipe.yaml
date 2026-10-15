@@ -21,7 +21,7 @@ requirements:
     - python ${{ python_min }}.*
     - pytest
     - pip
-    - setuptools >=78.1.1
+    - setuptools >=83.0.0
   run:
     - python >=${{ python_min }}
     - requests
