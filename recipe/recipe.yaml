@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.32.3"
+  version: "0.32.4"
 
 package:
   name: soco
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/soco/soco-${{ version }}.tar.gz
-  sha256: 398a3b03a129721bf101cce008c33879cb1c5046f8d16a4f145d4a03fa92cb8c
+  sha256: 9d5104cebb34f8431b50d17ccc3c1776563789f4a42fcb71a9ca36c70941c324
 
 build:
   number: 0
